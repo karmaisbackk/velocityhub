@@ -3,7 +3,82 @@
  
 -- the stuff for preperation
 local key = "nigga1=freemj" -- put youre key in here
- 
+local key = "perm-235124511" -- put youre key in here
+local key = "perm-314241241" -- put youre key in here
+local key = "perm-213213123" -- put youre key in here
+local key = "perm-471957192" -- put youre key in here
+local key = "perm-237142051" -- put youre key in here
+local key = "perm-681110231"
+local key = "perm-947203184" -- put youre key in here
+local key = "perm-320174689" -- put youre key in here
+local key = "perm-754319062" -- put youre key in here
+local key = "perm-801732945" -- put youre key in here
+local key = "perm-159834726" -- put youre key in here
+local key = "perm-473920681" -- put youre key in here
+local key = "perm-208476391" -- put youre key in here
+local key = "perm-914673280" -- put youre key in here
+local key = "perm-364581927" -- put youre key in here
+local key = "perm-238104769" -- put youre key in here
+local key = "perm-691472305" -- put youre key in here 
+local key = "perm-547190382" -- put youre key in here
+local key = "perm-173829064" -- put youre key in here
+local key = "perm-832107456" -- put youre key in here
+local key = "perm-309127648" -- put youre key in here
+local key = "perm-580912347" -- put youre key in here
+local key = "perm-219847306" -- put youre key in here
+local key = "perm-794230158" -- put youre key in here
+local key = "perm-643012895" -- put youre key in here
+local key = "perm-402759318" -- put youre key in here
+local key = "perm-150932846" -- put youre key in here
+local key = "perm-287319640" -- put youre key in here
+local key = "perm-891640237" -- put youre key in here
+local key = "perm-926471305" -- put youre key in here
+local key = "perm-310987245" -- put youre key in here
+local key = "perm-481273905" -- put youre key in here 
+local key = "perm-103892764" -- put youre key in here
+local key = "perm-675291038" -- put youre key in here
+local key = "perm-982174630" -- put youre key in here
+local key = "perm-417308925" -- put youre key in here
+local key = "perm-253791408" -- put youre key in here
+local key = "perm-806314972" -- put youre key in here
+local key = "perm-139740586" -- put youre key in here
+local key = "perm-520893174" -- put youre key in here
+local key = "perm-764902318" -- put youre key in here
+local key = "perm-398170245" -- put youre key in here
+local key = "perm-609843217" -- put youre key in here
+local key = "perm-871230496" -- put youre key in here
+local key = "perm-194827360" -- put youre key in here 
+local key = "media-23125485" -- put youre key in here
+local key = "media-21315425" -- put youre key in here
+local key = "media-58124851" -- put youre key in here
+local key = "media-51724712" -- put youre key in here
+local key = "media-85128591" -- put youre key in here
+local key = "media-85182575" -- put youre key in here
+local key = "media-21848124" -- put youre key in here
+local key = "media-23125485" -- put youre key in here
+local key = "media-74829301" -- put youre key in here
+local key = "media-59281734" -- put youre key in here
+local key = "media-18462039" -- put youre key in here
+local key = "media-90374821" -- put youre key in here
+local key = "media-31789426" -- put youre key in here
+local key = "media-82047639" -- put youre key in here
+local key = "media-45821397" -- put youre key in here
+local key = "media-62918437" -- put youre key in here
+local key = "media-70129384" -- put youre key in here
+local key = "media-34920186" -- put youre key in here
+local key = "media-58209371" -- put youre key in here
+local key = "media-19482736" -- put youre key in here
+local key = "media-87014329" -- put youre key in here
+local key = "media-21638470" -- put youre key in here
+local key = "media-43029185" -- put youre key in here
+local key = "media-68312094" -- put youre key in here
+local key = "media-94821036" -- put youre key in here
+local key = "media-12038467" -- put youre key in here
+local key = "media-36590821" -- put youre key in here
+
+
+
+
 local keylink = "https://discord.gg/qXfpar4v" -- put your key link here
  
 local nameofthescript = "velocityhub" --put your script name here. leave blank too leave blank ig
@@ -95,7 +170,7 @@ TextButton.MouseButton1Click:Connect(function()
 	if KeyTextbox.Text == key then
 		TextButton.Text = "Correct Key!"
 		task.wait(3)
-		"loadstring(game:HttpGet("https://raw.githubusercontent.com/karmaisbackk/velocityhub/refs/heads/main/velocityhub"))()") -- insert script on this line
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/karmaisbackk/velocityhub/refs/heads/main/velocityhub"))() -- insert script on this line
 		ScreenGui:Destroy()
 	else
 		TextButton.Text = "Wrong Key!"
@@ -156,4 +231,4 @@ note.TextWrapped = true
 scriptname.Text = "Key Link Copied!"
 setclipboard(keylink)
 task.wait(3)
-scriptname.Text = nameofthescript
+scriptname.Text = velocity.hub
